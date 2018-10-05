@@ -5,7 +5,7 @@ public class ClockDisplay {
             int hours = 0;
             int minutes = 0;
 
-                while (hours <= 12 && minutes <= 60)
+                while (hours <= 11 && minutes <= 60)
                 {
                     System.out.println("time is " + hours + ":" + minutes);
                     minutes++;
